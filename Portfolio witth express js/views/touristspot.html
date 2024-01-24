@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Atisam Akhtar | Tourist Spot</title>
+  <meta name="title" content="Annie | Services">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="/assets/css/require.css">
+  <link rel="stylesheet" href="/assets/css/pages/tourist.css">
+
+
+  <style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: #fff;
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    .tourist-spot {
+        width: 30%;
+        margin: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+
+    .spot-image {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .spot-info {
+        padding: 15px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 200px;
+        border: none;
+    }
+</style>
+</head>
+
+<body>
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="preloader-circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <h2><i>Atisam Akhtar</i></h2>
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="/" class="label-lg navbar-link has-after">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="label-lg navbar-link has-after active">Tourist Spot</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="/city" class="label-lg navbar-link has-after">Fav Cities</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="/contact" class="label-lg navbar-link has-after">Contact</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <a href="/contact" class="btn btn-primary">Contact Now</a>
+
+      <button class="nav-toggle-btn" aria-label="menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+  <header>
+    <h1>Favorite Tourist Spots</h1>
+</header>
+
+<section>
+    <div class="tourist-spot">
+        <img class="spot-image" src="./assets/images/Machu.jpg" alt="Tourist Spot 1">
+        <div class="spot-info">
+            <h2>Machu Picchu, Peru</h2>
+            <p >Machu Picchu is often referred to as the "Lost City of the Incas" and is a UNESCO World Heritage Site. Visitors can explore </p>
+            <!-- Add more details as needed -->
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- Repeat the structure for other tourist spots -->
+
+    <div class="tourist-spot">
+        <img class="spot-image" src="./assets/images/Santorini.jpg" alt="Tourist Spot 2">
+        <div class="spot-info">
+            <h2>Santorini, Greece</h2>
+            <p>Santorini is a picturesque Greek island in the Aegean Sea known for its distinctive white-washed buildings with blue domes,</p>
+            <!-- Add more details as needed -->
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div class="tourist-spot">
+      <img class="spot-image" src="./assets/images/Kyoto.jpg" alt="Tourist Spot 2">
+      <div class="spot-info">
+          <h2>Kyoto, Japan</h2>
+          <p>Kyoto, the former imperial capital of Japan, is renowned for its well-preserved temples, traditional wooden houses, and beautiful gardens</p>
+          <!-- Add more details as needed -->
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+      </div>
+  </div>
+
+    <!-- Repeat for other spots -->
+</section>
+
+
+  
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-pinterest"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+      <p class="text-center">&copy; 2022 copyright all right reserved</p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
